@@ -15,7 +15,10 @@
     }
     .jogandoQuizz > div{
         width: 375px;
-    }      
+    }   
+    .telaResultadoQuizz > div{
+        width: 375px;
+    }   
 }
 @media only screen and (max-width: 375px){
     .telaLogin > div{
