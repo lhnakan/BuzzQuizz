@@ -1,0 +1,36 @@
+@media only screen and (max-width: 765px){
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    .jogandoQuizz ul{
+        width: 100vw;
+    }
+    .telaResultadoQuizz ul{
+        width: 100vw;
+    }
+    input{
+        width: 100%;
+    }
+    .jogandoQuizz > div{
+        width: 375px;
+    }      
+}
+@media only screen and (max-width: 375px){
+    .telaLogin > div{
+        width: 100%;
+    }
+    .jogandoQuizz > div{
+        width: 100%;
+    }
+    .jogandoQuizz li{
+        width: 99%
+    }
+    .telaResultadoQuizz > div{
+        width: 100%;
+    }
+    .telaResultadoQuizz li{
+        width: 99%;
+    }
+}
