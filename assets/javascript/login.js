@@ -2,6 +2,17 @@
 var tokenAcesso;
 var dadosdoquizz;
 
+var contPerguntas = 0;
+var contNiveis = 0;
+
+var titulosQuizzAdicionados = "";
+var perguntasAdicionadas = [];
+var respostasAdicionadas = [];
+var minMaxAdicionados = [];
+var titulosNiveisAdicionados = []
+var linksNiveisAdicionados = [];
+var descricoesNiveisAdicionados = [];
+
 var secao1 = document.querySelector("#s1");
 var secao2 = document.querySelector("#s2");
 
@@ -30,7 +41,6 @@ function emailSenhaIncorretos(){
     alert('E-mail/Senha incorretos, por favor tente denovo.');
     document.querySelector(".entrar").disabled = false;
 }
-
 
 // --------FUNCOES GERAIS------------
 
