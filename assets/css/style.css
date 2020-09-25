@@ -1,0 +1,56 @@
+/*------------------GERAL-----------------------*/
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+h2{
+    font-size: 25px;    
+    font-weight: lighter;
+}
+header{
+    display: none;
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*------------------TELA DE LOGIN-----------------------*/
+.telaLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;  
+    margin-top: 50px;
+}
+.telaLogin input{
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    width: 100%;
+    height: 56px;
+}
+.telaLogin div{
+    width: 375px;
+    background: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+.telaLogin button{
+    margin-top: 5px;
+    padding: 10px 30px;
+    font-size: 20px;
+}
