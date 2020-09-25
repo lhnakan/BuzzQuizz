@@ -1,7 +1,9 @@
 //----VARIAVEIS GLOBAIS
 var tokenAcesso;
 var dadosdoquizz;
-
+var contadorJogadas = 0;
+var seletorQuizz;
+var acertos = 0;
 var contPerguntas = 0;
 var contNiveis = 0;
 
@@ -47,4 +49,7 @@ function emailSenhaIncorretos(){
 function limparTelaAtual(){    
     secao1.innerHTML = "";
     secao2.innerHTML = "";
+}
+function embaralhar(){
+    return Math.random() - 0.5;
 }
